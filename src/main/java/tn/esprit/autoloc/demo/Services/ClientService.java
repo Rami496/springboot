@@ -1,10 +1,11 @@
 package tn.esprit.autoloc.demo.Services;
 
+import org.springframework.stereotype.Service;
 import tn.esprit.autoloc.demo.Repository.ClientRepository;
 import tn.esprit.autoloc.demo.domain.Client;
 
 import java.util.List;
-
+@Service
 public class ClientService implements IClientService {
  ClientRepository clientRepository;
     @Override
